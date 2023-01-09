@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Jost", sans-serif;
+}
+
+main {
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	place-items: center;
+	background-color: #ccffff;
+}
+
+main h1 {
+	font-size: 5rem;
+}
+/* start writing your code */
+.box {
+	width: auto;
+	height: 55vh;
+	background-color: #e6e6e6;
+	border-radius: 2rem;
+	padding: 3rem;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+
+.box .sec1, .sec2{
+	width: 50%;
+	height: 30rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sec3{
+    width: 100%;
+	height: 10rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
